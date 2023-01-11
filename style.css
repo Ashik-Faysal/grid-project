@@ -1,86 +1,86 @@
-*{
-    background-color: rgb(175, 210, 140);
+* {
+  background-color: rgb(175, 210, 140);
 }
-#header{
-    text-align: center;
-    color: brown;
-    font-size: 2.5em;
-    font-style: italic;
-    font-weight: 700;
+#header {
+  text-align: center;
+  color: brown;
+  font-size: 2.5em;
+  font-style: italic;
+  font-weight: 700;
 }
-img{
-    height: 40vh;
-    width: 30vw;
+img {
+  height: 40vh;
+  width: 30vw;
 }
-.container{
-    display: grid;
-    gap: 40px;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 30px;
+.container {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px;
 }
-.container>div {
-    font-size: 1.5em;
-    padding: 5px;
-    margin: 8px;
-    border: 1px solid #dcdcdc;
+.container > div {
+  font-size: 1.5em;
+  padding: 5px;
+  margin: 8px;
+  border: 1px solid #dcdcdc;
 }
-.container > div:hover{
-color: #ffffff;
+.container > div:hover {
+  color: #ffffff;
 }
-button{
-    font-size: 1.2em;
-    background-color: rgb(119, 84, 19);
-    border: none;
-    border-radius: 10px;
-    margin-top: 10px;
-    color: aliceblue;
-    margin-left: 10px;
+button {
+  font-size: 1.2em;
+  background-color: rgb(119, 84, 19);
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: aliceblue;
+  margin-left: 10px;
 }
-button:hover{
-    background-color: green;
-    color: rgb(194, 155, 155);
+button:hover {
+  background-color: green;
+  color: rgb(194, 155, 155);
 }
-@media screen and (max-width:576px) {
-    .container{
+@media screen and (max-width: 576px) {
+  .container {
     display: grid;
     gap: 40px;
     grid-template-columns: repeat(1, 1fr);
     padding: 30px;
-}
-img{
+  }
+  img {
     width: 100%;
+  }
 }
-}
-@media screen and (min-width:577px) and (max-width:992px) {
-    .container{
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .container {
     display: grid;
     gap: 40px;
     grid-template-columns: repeat(2, 1fr);
     padding: 30px;
-}
-img{
+  }
+  img {
     width: 100%;
+  }
 }
-}
-@media screen and (min-width:993px) and (max-width:1200px) {
-    .container{
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .container {
     display: grid;
     gap: 40px;
     grid-template-columns: repeat(3, 1fr);
     padding: 30px;
-}
-img{
+  }
+  img {
     width: 100%;
+  }
 }
-}
-@media screen and (min-width:1201px){
-     .container{
+@media screen and (min-width: 1201px) {
+  .container {
     display: grid;
     gap: 40px;
     grid-template-columns: repeat(4, 1fr);
     padding: 30px;
-}
-img{
+  }
+  img {
     width: 100%;
-}
+  }
 }
